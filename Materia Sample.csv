@@ -1,0 +1,73 @@
+Materia Rank,"Magic
+(JP)","Magic
+(EN)",AP,ATB Cost,Cast Time,Type,Element,Power (hit by hit),Stagger Rate (hit by hit),ATB Gain (hit by hit),"Interrupt Str
+(You -> Enemy)",Special Effects,"Interrupt Def
+(Enemy -> You)"
+Fire Materia,,,,,,,,,,,,,
+L1,Fire,,2000,1,0,Magic,Fire,250,"4
+Pressure: 16",0,50,Launch,40
+L2,Fira,,18000,1,1s,Magic,Fire,380,"7
+Pressure: 28",0,50,Launch,40
+L3,Firaga,,35000,1,2s,Magic,Fire,500,"7
+Pressure: 28",0,70,Launch,40
+Ice Materia,,,,,,,,,,,,,
+L1,Blizzard,,2000,1,0,Magic,Ice,0 + 250,"0 + 6
+Pressure: 0 + 24",0,50,"Knockdown (1st hit),
+Launch (2nd hit)",40
+L2,Blizzara,,18000,1,1s,Magic,Ice,0 + 380,"0 + 10
+Pressure: 0 + 40",0,50,"Knockdown (1st hit),
+Launch (2nd hit)",40
+L3,Blizzaga,,35000,1,2s,Magic,Ice,0 + 500,"0 + 10
+Pressure: 0 +40",0,"50 (1st hit),
+70 (2nd hit)","Knockdown (1st hit),
+Launch (2nd hit)",40
+Lightning Materia,,,,,,,,,,,,,
+L1,Thunder,,2000,1,0,Magic,Thunder,250,"2
+Pressure: 8",0,50,Knockdown,40
+L2,Thundara,,18000,1,1s,Magic,Thunder,380,"5
+Pressure: 20",0,50,Knockdown,40
+L3,Thundaga,,35000,1,2s,Magic,Thunder,500,"5
+Pressure: 20",0,70,Knockdown,40
+Wind Materia,,,,,,,,,,,,,
+L1,Aero,,2000,1,0,Magic,Wind,0 + 250,"0 + 4
+Pressure: 0 + 16",0,50,Blowback (2nd hit),40
+L2,Aera,,18000,1,1s,Magic,Wind,0 + 380,"0 + 7
+Pressure: 0 + 28",0,50,Blowback (2nd hit),40
+L3,Aeroga,,35000,1,2s,Magic,Wind,0 + 500,"0 + 7
+Pressure: 0 + 28",0,"50 (1st hit),
+70 (2nd hit)",Blowback (2nd hit),40
+Healing Materia (PS1: Restore),,,,,,,,,,,,,
+L1,Cure,,2500,1,1s,Restorative,-,350,-,0,-,-,40
+L2,Cura,,17000,1,1s,Restorative,-,650,-,0,-,-,40
+L3L1,Curaga,,40000,1,1s,Restorative,-,1200,-,0,-,-,40
+L3,Regen,,25000,1,0s,Restorative,-,(See below),-,0,-,Applies Regen (180s),40
+Cleansing Materia (PS1: Heal Materia),,,,,,,,,,,,,
+L1,Poisona,,1200,1,0s,-,-,-,-,0,-,Cleanses Poison,40
+L2,Esuna,,52000,1,1s,-,-,-,-,0,-,Cleanses all negative effects,40
+L3,Resist,,60000,1,0s,-,-,-,-,0,-,Applies Resist (100s),40
+Revival Materia (PS1: Revive Materia),,,,,,,,,,,,,
+L1,Raise,,45000,1,1s,Restorative,-,(See below),-,0,-,Revives ally,40
+L2,Arise,,55000,1,1.5s,Restorative,-,(See below),-,0,-,Revives ally,40
+Poison Materia,,,,,,,,,,,,,
+L1,Bio,,5000,1,0s,Magic,-,200,"1
+Pressure: 2",0,50,Inflicts Poison (180s),40
+L2,Biora,,20000,1,1s,Magic,-,300,"2
+Pressure: 4",0,50,Inflicts Poison (180s),40
+L3,Bioga,,35000,1,2s,Magic,-,400,"4
+Pressure: 8",0,70,Inflicts Poison (180s),40
+Binding Materia (PS1: Seal Materia),,,,,,,,,,,,,
+L1,Sleep,,10000,1,0s,-,-,0,0,0,0,Inflicts Sleep (40s),40
+L2,Silence,,20000,1,0s,-,-,0,0,0,0,Inflicts Silence (40s),40
+L3,Berserk,,25000,1,1s,-,-,0,0,0,0,Inflicts Berserk (30s),40
+Time Materia,,,,,,,,,,,,,
+L1,Haste,,8000,1,0s,-,-,0,0,0,0,Inflicts Slow (40s),40
+L2,Slow,,20000,1,1.5s,-,-,0,0,0,0,Inflicts Stop (10s),40
+L3,Stop,,42000,1,0s,-,-,-,-,0,-,Applies Haste (100s),40
+Subversion Materia (PS1: Destruct Materia),,,,,,,,,,,,,
+L1,Breach,6000,2,1s,-,-,0,0,0,0,Removes specific enemy shields,40,
+L2,Dispel,10000,2,1s,-,-,0,0,0,0,Removes enemy's buffs,40,
+Barrier Materia,,,,,,,,,,,,,
+L1,Barrier,5000,1,0s,-,-,-,-,0,-,Applies Barrier (60s),40,
+L2,Manaward,15000,1,0s,-,-,-,-,0,-,Applies Manaward (60s),40,
+L3,Manawall,30000,1,1.5s,-,-,-,-,0,-,Applies Barrier (60s) and Manaward (60s),40,
+,,,,,Applies both barrier and manaward to targeted ally.,,,,,,,,
